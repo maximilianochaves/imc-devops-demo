@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <form method="POST">
+        Peso (kg): <input type="text" name="peso"><br>
+        Altura (m): <input type="text" name="altura"><br>
+        <button type="submit">Calcular</button>
+    </form>
+    {% if imc %}
+        <h2>Seu IMC é: {{ imc }}</h2>
+    {% endif %}
+</body>
+</html>
