@@ -136,7 +136,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <h1>Calculadora de IMC</h1>
-        <h5>Indice de Massa Corporea</h5>
+        <h4>Indice de Massa Corporea</h4>
         <form method="POST">
             <div class="input-group">
                 <label for="peso">Peso (kg)</label>
